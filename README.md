@@ -12,7 +12,7 @@ L'entité ayant obtenue le plus grand page rank au bout de trois itérations est
 
 ## Résultats
 
-![alt text](https://github.com/Bobinho44/PROJET_GDLE_M2/tree/master/img/plot.png)
+![alt text](https://github.com/Bobinho44/PROJET_GDLE_M2/blob/main/img/plot.png)
 
 Ce diagramme nous montre que l'implantation PySpark est plus rapide à exécuter. Cependant, contrairement à l'implémentation Pig, la diminue du temps d'exécution en fonction de l'augmentation du nombre de worker est assez faible. Cela est certainement du à l'implémentation naïve de l'algorithme de page rank qui a été utilisé.
 Nous pouvons aussi remarqué que, dans les deux implémentations, la diminution du temps d'exécution en fonction du nombre de worker n'est pas linéaire. Nous pouvons relier cela à la loi d'Amdahl, qui dit que, lorsque vous essayez de rendre quelque chose plus rapide en le paralélisant, il y a toujours une partie qui ne peut pas être accélérée, et cela limite à quel point le tout peut devenir plus rapide.

@@ -3,7 +3,8 @@
 ## Introduction
 
 Dans le cadre de l'UE Gestion des Données à Large Echelle, nous avons effectué un projet qui consistant comparer des performances sur pagerank, entre une implantation Pig et une implantation PySpark.
-
+Etant donné, qu'il était impossible de demandé un seul worker, et que pour six worker ou plus, il falait des permissions suplémentaires, nous avons choisis de réaliser l'expérience avec 2, 4 et 5 workers.
+ 
 Ce projet à été réalisé par : GERARD Kylian, Izzedine Issa Ahmat, et MASSAT Islam
 
 ## Entité avec le plus grand page rank
